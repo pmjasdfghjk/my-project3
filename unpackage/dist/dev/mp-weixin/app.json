@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/uesr/index",
+    "pages/order/index",
+    "pages/search/index",
+    "pages/hospital/index",
+    "pages/service/index",
+    "pages/clients/index",
+    "pages/order/order"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/resource/images/tab_index.png",
+        "selectedIconPath": "static/resource/images/tab_index_seled.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/order/index",
+        "iconPath": "static/resource/images/tab_pub.png",
+        "selectedIconPath": "static/resource/images/tab_pub_seled.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/uesr/index",
+        "iconPath": "static/resource/images/tab_user.png",
+        "selectedIconPath": "static/resource/images/tab_user_seled.png",
+        "text": "用户"
+      }
+    ]
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "onLocationChange",
+    "startLocationUpdateBackground",
+    "chooseAddress"
+  ],
+  "usingComponents": {}
+}

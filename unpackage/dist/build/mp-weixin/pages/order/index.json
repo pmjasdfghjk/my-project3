@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "order",
+  "usingComponents": {
+    "formater": "../../components/formater/formater",
+    "counter": "../../components/counter/counter"
+  }
+}

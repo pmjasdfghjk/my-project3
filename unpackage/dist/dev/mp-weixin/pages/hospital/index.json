@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "医院",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "navbar": "../../components/navbar/navbar",
+    "share": "../../components/share/share"
+  }
+}

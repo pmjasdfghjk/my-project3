@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "user",
+  "usingComponents": {
+    "share": "../../components/share/share"
+  }
+}

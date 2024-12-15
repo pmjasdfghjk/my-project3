@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),r={data:()=>({}),methods:{}};if(!Array){e.resolveComponent("navbar")()}Math;const t=e._export_sfc(r,[["render",function(e,r,t,n,o,a){return{}}]]);wx.createPage(t);
