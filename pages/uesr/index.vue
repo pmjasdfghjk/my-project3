@@ -72,6 +72,7 @@
 <script setup>
 import {onLoad} from '@dcloudio/uni-app'
 import { ref } from 'vue'
+const pmj=1
 const mine=ref({
 	avater:'',
 	avatar_url:'',
